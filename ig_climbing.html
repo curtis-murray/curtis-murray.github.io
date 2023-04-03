@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<!--<div class="main-post-list">-->
+
+    {% for paper in site.data.ig_climbing %}
+
+      <li class="timeline-inverted">
+        <iframe src="https://www.instagram.com/p/{{paper.link}}/embed" width="400" height="480" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+      </li>
+    {% endfor %}
+    <!--
+    <li class="timeline-inverted">
+      <div class="timeline-image">
+        <img class="user-image" src="{{site.baseurl}}{{ site.timeline-img }}" alt="">
+      </div>
+    </li> -->
+<!--</div>-->
+
+

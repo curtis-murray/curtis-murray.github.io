@@ -1,0 +1,12 @@
+# projects section data
+# If you don't have language feature(language.yml is empty), ignore "i18n" items
+# Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+- name: Symptom Extraction From the Narratives of Personal Experience with COVID-19 On Reddit
+  img: '/images/Paper1.png'
+  desc: Social media discussion of COVID-19 provides a rich source of information into how the virus affects people's lives that is qualitatively different from traditional public health datasets... (cont.)
+  link: "https://arxiv.org/abs/2005.10454"
+
+- name: Revealing Patient-Reported Experiences in Healthcare from Social Media using the DAPMAV Framework
+  img: '/images/DAPMAV.png'
+  desc: Understanding patient experience in healthcare is increasingly important and desired by medical professionals in a patient-centred care approach... (cont.)
+  link: "https://arxiv.org/abs/2210.04232"

@@ -1,0 +1,8 @@
+# projects section data
+# If you don't have language feature(language.yml is empty), ignore "i18n" items
+# Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+- name: HealthData21 Conference Presentation
+  img: '/images/HealthData21.png'
+  desc: Presentation for the conference HealthData21 "Harnessing patient experiences from social media"
+  link: "https://www.youtube.com/watch?v=rBQgyKYSjLA"
+

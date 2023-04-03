@@ -1,0 +1,14 @@
+# projects section data
+# If you don't have language feature(language.yml is empty), ignore "i18n" items
+# Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+
+
+- name: Probabilistic Emotion Recommender System
+  img: '/images/pers2.png'
+  desc: Shiny app for Probabilistic Emotion Recommender System (PERS)
+  link: "https://curtismurray.shinyapps.io/pers/"
+
+- name: Australian Reddit Topic Modelling
+  img: '/images/cities_app.png'
+  desc: Shiny app for Australian city subreddit data
+  link: "https://curtis-w-murray.shinyapps.io/AusRedditTopicModel/"
