@@ -23,15 +23,19 @@ const Header = ({ activeMenuId, menuItems }) => {
         <div className="w-full flex justify-between items-center px-4">
           <a href="/">
             <img
-              className="logo lightLogo h-[20px] lg:h-[0px] hidden"
+              className="logo lightLogo h-[0px] lg:h-[0px] hidden"
               src={lightLogo}
               alt="logo"
             />
             <img
-              className="logo darkLogo h-[20px] lg:h-[0px] hidden"
+              className="logo darkLogo h-[0px] lg:h-[0px] hidden"
               src={darkLogo}
               alt="logo"
             />
+            <h3 className="mt-6 mb-1 font-semibold dark:text-white lg:hidden">
+              Curtis Murray
+            </h3>
+            
           </a>
           <div className="flex items-center">
             <button
@@ -57,8 +61,8 @@ const Header = ({ activeMenuId, menuItems }) => {
               {showMenu ? (
                 <ImCross id="menu-toggle-close-icon" className="text-xl" />
               ) : (
-                <FaBars id="menu-toggle-open-icon" className="text-xl" />
-              )}
+                  <FaBars id="menu-toggle-open-icon" className="text-xl" />
+                )}
             </button>
           </div>
         </div>
@@ -72,8 +76,8 @@ const Header = ({ activeMenuId, menuItems }) => {
               <li key={index}>
                 <a
                   className={`flex cursor-pointer items-center pt-[0.625rem] pb-[0.625rem] pl-4 pr-1 xl:pl-5 xl:pr-5 font-poppins font-sans text-xs font-medium text-text-primary dark:text-white hover:text-btn-primary  transition-all duration-300 ease-in-out ${
-                    activeMenuId == item.data.link ? "!text-btn-primary" : ""
-                  }`}
+activeMenuId == item.data.link ? "!text-btn-primary" : ""
+}`}
                   href={item.data.link}
                 >
                   <span className="mr-2 text-xl">
