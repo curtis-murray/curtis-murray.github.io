@@ -4,7 +4,7 @@ import react from "@astrojs/react";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://curtis-murray.github.io',
+  site: 'https://curtismurray.tech',
   integrations: [tailwind(), react()],
   vite: {
     ssr: {
