@@ -1,39 +1,23 @@
-# Serving the site
-'bundle exec jekyll serve'
+# Resume01
 
-# Jekyll-Uno with Projects as Timeline
-A Jekyll Theme, based on the Uno-Theme with a list of projects as Timeline.
+Resume01 is a fully customizable website template for a robust resume website.
 
-## How does is look
-[Demo](http://thomas.zuehlke.family/)
-![Screenshot](screenshot-overview.png)
-![jekyll-theme-desktop](https://user-images.githubusercontent.com/32843441/72224870-5451ff00-357f-11ea-8fc2-bfbd4499bc63.gif)
-![jekyll-theme-mobil](https://user-images.githubusercontent.com/32843441/72224877-6a5fbf80-357f-11ea-920b-dfae72bf2fbe.gif)
+# Description
 
-## Installation/Setup
-1. Download or clone repo `git clone https://github.com/tzuehlke/jekyll-uno-timeline.git`
-2. Enter the folder: `cd jekyll-uno-timeline/`
-3. Build it: `jekyll build`
-4. Start Jekyll server: `jekyll serve`
-5. Configure: `_config.yml`
-   * at least set `font_awesome` or download and add the font in `head.html`
+Resume01 is a website template that simplifies the process of developing a website for your resume. It has never been simpler to showcase your website creatively. This template allows you to present your skills and achievements on the Internet with an innovative website for which you do not need to write a single line of code.
 
-Access via: [http://localhost:4000/](http://localhost:4000/)
+It is a beautifully designed template that is specially designed to highlight your achievements and build trust. Creating an appealing and professional-looking resume website is no longer an ordeal when you select this template.
 
-## Details/Features/Changes
-* based on the [Uno-Theme](https://github.com/joshgerdes/jekyll-uno), but:
-  * removed everything with posts
-  * `content-wrapper` can be shown or hidden with button
-  * changed all icons to [Font-Awesome](https://fontawesome.com/)
-  * updated google-analytics snipped
-  * added [Meetup-Link](https://www.meetup.com/)
-  * removed RSS
-  * removed Disqus
-  * using a Timeline-Design instead of posts, therefore no pagination anymore
-* using Timeline ([CSS](https://github.com/le4ker/personal-jekyll-theme/blob/master/css/timeline.scss), [HTML](https://github.com/le4ker/personal-jekyll-theme/blob/master/_includes/timeline.html) ) from [{ Personal } Jekyll Theme](https://github.com/le4ker/personal-jekyll-theme) for a list of projects, but:
-  * still with 3 layouts for different screen-width, but without images on small screens
-  * timeline information source is now `_data/projects.yaml`
-  * always using the `timeline-inverted`-class, for text on the right side of the images
-* using [github_api.js](https://github.com/jarrekk/Jalpc/blob/master/static/js/github_api.js) from [Jalpc.](https://github.com/jarrekk/Jalpc), but:
-  * changed the GitHub-URL for using with persons and organisations
-  * added watchers number
+All it takes to launch a full-fledged resume website is installing and configuring the template to meet your requirements. By opting for this creative template for Astro, you will not spend hours setting up a website on your desk. Simply configure it, enter your details, and your resume website is ready to launch.
+
+## Key Features
+
+- Easy customization options
+- User-friendly and convincing interface
+- Easy to edit
+- No coding required
+- Downloadable CV option for the reader
+- 2 Different layouts with day and night mode
+- Easy contact us detail form for effortless inquiries
+- Portfolio details with all client details
+- Special sections like About Us, Resume Details, Portfolio, Contact
