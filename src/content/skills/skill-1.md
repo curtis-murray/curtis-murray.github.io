@@ -1,6 +1,6 @@
 ---
-skill: "Clinical NLP"
-about: "My research broadly relates to using NLP in healthcare."
-img: "/assets/icons/nlp.svg"
+skill: "Category Theory"
+about: ""
+img: "/assets/icons/cat.svg"
 bgColor: "bg-skill-bg-three"
 ---

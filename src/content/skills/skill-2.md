@@ -1,6 +1,6 @@
 ---
-skill: Electronic Medical Records
-about: My research at RMIT focusses on detecting antimicrobial resistance from electronic medical records with NLP.
-img: /assets/icons/emr.svg
+skill: Complex Geometry
+about: 
+img: /assets/icons/geom.svg
 bgColor: bg-skill-bg-two
 ---

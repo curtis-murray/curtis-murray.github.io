@@ -1,6 +1,6 @@
 ---
-year: "2015-2018"
-title: "Bachelor of Mathematics (Pure)"
-subTitle: "The University of Adelaide, Australia"
+year: "2014-2017"
+title: "Bachelor of Science (Pure Mathematics)"
+subTitle: "The University of Melbourne, Australia"
 bgColor: "bg-skill-bg-three"
 ---

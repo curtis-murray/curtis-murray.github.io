@@ -1,6 +1,6 @@
 ---
-skill: Network Science
-about: I'm also fascinated by network science, especially community detection.
-img: /assets/icons/network.svg
+skill: Algebraic Geometry
+about: 
+img: /assets/icons/alg_geom.svg
 bgColor: bg-skill-bg-three
 ---

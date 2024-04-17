@@ -2,13 +2,12 @@
 import Layout from "../layouts/Layout.astro";
 import { getCollection } from "astro:content";
 import CardPub from "../components/CardPub";
-const publications = await getCollection("publications");
-const preprints = await getCollection("preprints");
+const research = await getCollection("research");
 import { FaNewspaper, FaBoxArchive, FaBox } from "react-icons/fa";
 ---
 
 <Layout
-  title="Resume - Curtis Murray Data Science Statistics Research Clinical NLP Healthcare Text"
+  title="Resume - Haripriya Sridharan Pure Mathematics Complex Analysis Complex Geometry Research K-theory Oka Principle"
 >
   <!-- Pub section start -->
   <div class="container mr-auto ml-auto sm:px-5 md:px-10 lg:px-14">
@@ -22,32 +21,19 @@ import { FaNewspaper, FaBoxArchive, FaBox } from "react-icons/fa";
       <div
         class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-x-6 gap-y-6 mt-[30px]"
       >
-        <!-- publication start -->
-        <div>
-          <div class="flex items-center space-x-2 mb-4">
-            <span class="text-6xl text-light-icon">
-              <i class="fa-solid fa-box-archive"></i>
-              </span>
-            <h4 class="text-[1.625rem] dark:text-white font-medium">
-              Preprints
-            </h4>
-          </div>
-          {preprints.map((details) => <CardPub details={details} />)}
-        </div>
-        <!-- publication end -->  
-        <!-- Preprints start -->
+        <!-- Research  start -->
         <div>
           <div class="flex items-center space-x-2 mb-4">
             <span class="text-6xl text-light-icon">
               <FaNewspaper />
             </span>
             <h4 class="text-[1.625rem] dark:text-white font-medium">
-              Published articles
+              Research Outputs
             </h4>
           </div>
-          {publications.map((details) => <CardPub details={details} />)}
+          {research.map((details) => <CardPub details={details} />)}
         </div>
-        <!-- publication end -->
+        <!-- Research end -->
 
         </div>
     </div>

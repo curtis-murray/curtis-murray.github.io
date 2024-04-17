@@ -1,7 +1,7 @@
 ---
-title: "Probabilistic Emotion Recommender System"
-category: "App"
-img: "/assets/works/pers.png"
-link: "https://curtismurray.shinyapps.io/pers/"
-tag: "Apps"
+title: "The homotopy principle and its evolution in complex geometry"
+category: "Talk"
+img: "/assets/works/hprinc.png"
+link: "https://youtu.be/QnDHC4gE4ao"
+tag: "Talks"
 ---

@@ -1,9 +1,9 @@
 ---
 skill:
-  - NLP
-  - Electronic Medical Records
-  - Patient-Reported Experience
-  - Networks
-  - Data Science
-  - Applied Mathmatics
+  - Pure Mathematics
+  - Research
+  - Complex Problem Solving
+  - Communication
+  - Outreach
+  - Collaboration
 ---

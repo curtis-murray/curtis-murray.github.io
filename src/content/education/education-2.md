@@ -1,6 +1,6 @@
 ---
-year: "2019"
-title: "First Class Honours in Mathematics (Statistics)"
+year: "2017-2020"
+title: "Master of Philosophy"
 subTitle: "The University of Adelaide, Australia"
 bgColor: "bg-skill-bg-two"
 ---

@@ -36,44 +36,7 @@ const Sidebar = ({ personalInfo }) => {
           {personalInfo[0].data.information.profession}
         </h3>       <h3 className="mb-4 text-light-text inline-block dark:bg-dark-mobile-primary px-5 py-1.5 rounded-lg dark:text-main-text">
           {personalInfo[0].data.information.husband}
-        </h3>         <h3 className="mb-4 text-light-text inline-block dark:bg-dark-mobile-primary px-5 py-1.5 rounded-lg dark:text-main-text">
-          {personalInfo[0].data.information.father}
-        </h3>
-        <div className="flex justify-center space-x-3">
-          {/* <!-- GitHub icon and link --> */}
-          <a
-            href={personalInfo[0].data.information.socialMedia.gitHub}
-            aria-label="GitHub Profile Link"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <span className="flex h-10 w-10 items-center justify-center bg-light-bg-five dark:bg-dark-border transition-all duration-300 ease-in-out rounded-lg hover:bg-gradient-to-r hover:from-btn-primary hover:to-btn-secondary hover:text-white text-github-icon">
-              <FaGithub />
-            </span>
-          </a>
-          {/* <!-- twitter icon and link --> */}
-          <a
-            href={personalInfo[0].data.information.socialMedia.twitter}
-            aria-label="Twitter Profile Link"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <span className="flex h-10 w-10 items-center justify-center bg-light-bg-five dark:bg-dark-border transition-all duration-300 ease-in-out rounded-lg hover:bg-gradient-to-r hover:from-btn-primary hover:to-btn-secondary hover:text-white text-twitter-icon">
-              <FaTwitter />
-            </span>
-          </a>
-
-          {/* <!-- Scholar icon and link --> */}
-<a
-  href={personalInfo[0].data.information.socialMedia.scholar}
-  aria-label="Google Scholar Profile Link"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  <span className="flex h-10 w-10 items-center justify-center bg-light-bg-five dark:bg-dark-border transition-all duration-300 ease-in-out rounded-lg hover:bg-gradient-to-r hover:from-btn-primary hover:to-btn-secondary hover:text-white text-scholar-icon">
-    <i class="fa-brands fa-google-scholar"></i>  </span>
-</a>
-
+        </h3>                 <div className="flex justify-center space-x-3">
           {/* <!-- linkedin icon and link --> */}
           <a
             href={personalInfo[0].data.information.socialMedia.linkedIn}
@@ -155,7 +118,7 @@ const Sidebar = ({ personalInfo }) => {
         {/* <!-- dowanload button --> */}
         <button className="flex items-center text-lg text-white transition-all ease-in-out duration-200 mt-6 mx-auto px-8 py-3 rounded-[35px] bg-gradient-to-r from-btn-secondary to-btn-primary hover:bg-gradient-to-r hover:from-btn-primary hover:to-btn-secondary">
           <img className="mr-3" src={downloadIcon} alt="icon" />
-          <a href="/Resume_Dec_2023.pdf" download aria-label="Download CV">
+          <a href="/HaripriyaSridharanResume.pdf" download aria-label="Download CV">
             {" "}
             Download CV
           </a>

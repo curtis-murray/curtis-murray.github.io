@@ -1,6 +1,7 @@
 ---
-year: 2023
-title: Research Associate
-subTitle: Swinburne University of Technology
-bgColor: "bg-skill-bg-four"
+year: 2022
+title: Mathematics Teaching Assistant
+subTitle: The University of Adelaide, Austalia
+bgColor: bg-exp-card-two
 ---
+

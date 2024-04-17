@@ -1,5 +1,5 @@
 ---
-name: "Papers"
+name: "Research"
 link: "/publications/"
 icon: "FaNewspaper"
 ---

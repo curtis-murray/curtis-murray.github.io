@@ -310,29 +310,6 @@ declare module 'astro:content' {
   collection: "portfolioFilters";
   data: any
 } & { render(): Render[".md"] };
-"filter-3.md": {
-	id: "filter-3.md";
-  slug: "filter-3";
-  body: string;
-  collection: "portfolioFilters";
-  data: any
-} & { render(): Render[".md"] };
-};
-"preprints": {
-"pre1.md": {
-	id: "pre1.md";
-  slug: "pre1";
-  body: string;
-  collection: "preprints";
-  data: any
-} & { render(): Render[".md"] };
-"pre2.md": {
-	id: "pre2.md";
-  slug: "pre2";
-  body: string;
-  collection: "preprints";
-  data: any
-} & { render(): Render[".md"] };
 };
 "progressBar": {
 "progressBar-1.md": {
@@ -373,6 +350,15 @@ declare module 'astro:content' {
   data: any
 } & { render(): Render[".md"] };
 };
+"research": {
+"masters.md": {
+	id: "masters.md";
+  slug: "masters";
+  body: string;
+  collection: "research";
+  data: any
+} & { render(): Render[".md"] };
+};
 "skills": {
 "skill-1.md": {
 	id: "skill-1.md";
@@ -402,25 +388,11 @@ declare module 'astro:content' {
   collection: "skills";
   data: any
 } & { render(): Render[".md"] };
-"skill-5.md": {
-	id: "skill-5.md";
-  slug: "skill-5";
-  body: string;
-  collection: "skills";
-  data: any
-} & { render(): Render[".md"] };
 };
 "works": {
 "portfolio-1.md": {
 	id: "portfolio-1.md";
   slug: "portfolio-1";
-  body: string;
-  collection: "works";
-  data: any
-} & { render(): Render[".md"] };
-"portfolio-2.md": {
-	id: "portfolio-2.md";
-  slug: "portfolio-2";
   body: string;
   collection: "works";
   data: any

@@ -1,4 +1,4 @@
 ---
-name: "Apps"
-tag: ".Apps"
+name: "Talks"
+tag: ".Talks"
 ---

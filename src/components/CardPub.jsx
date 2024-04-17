@@ -17,7 +17,7 @@ const CardPub = ({ details }) => {
       <p className="dark:text-dark-text">{details.data.authors.join(", ")}</p> {/* Assuming authors is an array */}
       <p className="dark:text-dark-text">{details.data.journal}</p>
       <span className="text-tiny text-text-secondary dark:text-dark-text">
-        DOI: {details.data.doi}
+        {details.data.doi}
       </span>
     </a>
   );
